@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('resources/fonts/mona_sans.ttf');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #191724;
+    color: #e0def4;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #faf4ed;
+        color: #575279;
+    }
+}
+
+.clock-container {
+    font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont,
+        'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-size: 8vw;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
